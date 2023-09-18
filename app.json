@@ -52,7 +52,7 @@
         },
         "AUTH_USERS": {
             "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
-            "required": true
+            "required": false
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
@@ -130,22 +130,22 @@
         "URL_SHORTENR_WEBSITE": {
             "description": " Url shortner website link   ",
             "value": "oemgalinks.in",
-            "required": true
+            "required": false
         },
         "URL_SHORTNER_WEBSITE_API": {
             "description": " Url shortner website api  ",
             "value": "xxxxxxxxxxxxx",
-            "required": true
+            "required": false
         },
         "LAZY_GROUPS": {
             "description": " Group id whom you want to bypass url ",
             "value": "-1001773435994",
-            "required": true
+            "required": false
         },
         "MY_USERS": {
             "description": "Id of the users whom you want to allow to forward message in file protection mode ",
             "value": "5965340120 5448908073 5590491131",
-            "required": true
+            "required": false
         }
     },
     "buildpacks": [{
